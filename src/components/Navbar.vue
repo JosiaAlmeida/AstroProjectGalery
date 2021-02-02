@@ -1,13 +1,13 @@
 <template>
-  <b-navbar toggleable="lg" type="dark" variant="dark">
-    <b-navbar-brand href="#">NavBar</b-navbar-brand>
+  <b-navbar class="navbar" toggleable="lg" type="dark" variant="dark">
+    <b-navbar-brand href="#">AstroGalery</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="ml-auto">
-        <b-nav-item href="#">Inicio</b-nav-item>
-        <b-nav-item href="#">Galeria</b-nav-item>
+        <router-link to="/"><b-nav-item href="/">Inicio</b-nav-item></router-link>
+        <router-link to="/Galeria"> <b-nav-item href="/Galeria">Galeria</b-nav-item></router-link>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
@@ -18,8 +18,9 @@ export default {
 };
 </script>
 <style scoped>
-navbar {
+.navbar {
   z-index: 1 !important;
-  position: absolute;
+  position: fixed!important;
+  width: 100%;
 }
 </style>
