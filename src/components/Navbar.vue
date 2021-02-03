@@ -1,6 +1,6 @@
 <template>
   <b-navbar class="navbar" toggleable="lg" type="dark" variant="dark">
-    <b-navbar-brand href="#">AstroGalery</b-navbar-brand>
+    <b-navbar-brand>AstroGalery</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -22,5 +22,14 @@ export default {
   z-index: 1 !important;
   position: fixed!important;
   width: 100%;
+}
+a{
+  font-size: 30px;
+  color: #fff;
+  padding:auto 4%;
+}
+a:hover{
+  color: rgb(111, 111, 230)!important;
+  text-decoration: none !important;
 }
 </style>

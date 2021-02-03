@@ -12,6 +12,10 @@
               v-for="(imgs, index) in Imagem"
               :img="imgs"
               :key="index"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
             />
           </div>
         </div>
