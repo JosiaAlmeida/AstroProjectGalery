@@ -1,39 +1,21 @@
 [
     {
-        "_id": 1,
-        "foto": "img54.jpg",
-        "titulo": "Bacalhau",
-        "top":1
+        "foto": "img54.jpg"
     },
     {
-        "_id": 2,
-        "foto": "img62.jpg",
-        "titulo": "Bacalhau",
-        "top":1
+        "foto": "img62.jpg"
     },
     {
-        "_id": 3,
-        "foto": "img38.jpg",
-        "titulo": "Bacalhau",
-        "top":1
+        "foto": "img38.jpg"
     },
     {
-        "_id": 1,
-        "foto": "img50.jpg",
-        "titulo": "Bacalhau",
-        "top":1
+        "foto": "img50.jpg"
     },
     {
-        "_id": 1,
-        "foto": "img49.jpg",
-        "titulo": "Bacalhau",
-        "top":1
+        "foto": "img49.jpg"
     },
     {
-        "_id": 1,
-        "foto": "img59.jpg",
-        "titulo": "Bacalhau",
-        "top":1
+        "foto": "img59.jpg"
     }
     
 ]
